@@ -147,9 +147,9 @@ li {
   list-style: none; }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 26px;
+  line-height: 27px;
   color: #6a6560;
   margin-bottom: 15px; }
 
@@ -223,7 +223,7 @@ label {
   background: #ffffff; }
 
 .black-bg {
-  background: #2a2d2c; }
+  background: #fff2f7; }
 
 .theme-bg {
   background: #e8d2b8; }
@@ -5341,3 +5341,14 @@ footer {
     color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.gradient {
+  background: rgb(240,202,106);
+  background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%);
+}
+.text-gradient, a, h1, h2, h3, h4, h5, h6, .footer-widget p {
+  background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%) !important;
+  -webkit-background-clip: text  !important;
+  -webkit-text-fill-color: transparent  !important;
+}

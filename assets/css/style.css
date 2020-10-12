@@ -1840,10 +1840,10 @@ header {
         min-height: 600px; } }
 
 .slider-content h6 {
-  color: #bfaba2; }
+  color: #000000; }
 .slider-content h1 {
   font-size: 110px;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.091;
   margin-top: 28px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -5347,7 +5347,7 @@ footer {
   background: rgb(240,202,106);
   background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%);
 }
-.text-gradient, a, h1, h2, h3, h4, h5, h6, .footer-widget p {
+.text-gradient,h2, h3, h4, h5, li a,  .footer-widget p {
   background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%) !important;
   -webkit-background-clip: text  !important;
   -webkit-text-fill-color: transparent  !important;

@@ -1687,7 +1687,7 @@ header {
 .banner-content ul li {
   display: inline-block;
   text-transform: uppercase;
-  color: #bfaba2;
+  color: #000000;
   letter-spacing: 2px;
   position: relative;
   padding: 0 10px;
@@ -5347,7 +5347,9 @@ footer {
   background: rgb(240,202,106);
   background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%);
 }
-.text-gradient,h2, h3, h4, h5, li a,  .footer-widget p {
+.text-gradient,h2, h3, h4, banner-content li,
+.small-title.hp-1, .title-heading.hp-1,
+h5, li a,  .footer-widget p {
   background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%) !important;
   -webkit-background-clip: text  !important;
   -webkit-text-fill-color: transparent  !important;

@@ -5349,6 +5349,7 @@ footer {
 }
 .text-gradient,h2, h3, h4, banner-content li,
 .small-title.hp-1, .title-heading.hp-1,
+.banner-content ul li, 
 h5, li a,  .footer-widget p {
   background: linear-gradient(348deg, rgba(240,202,106,1) 0%, rgba(120,66,32,1) 35%, rgba(240,202,106,1) 79%, rgba(120,66,32,1) 100%) !important;
   -webkit-background-clip: text  !important;

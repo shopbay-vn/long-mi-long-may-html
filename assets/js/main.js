@@ -83,7 +83,7 @@ mainSlider();
 
 
 
-// blog - active
+// FAQs - active
 $('.postbox__gallery').slick({
 	dots: false,
 	arrows: true,

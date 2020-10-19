@@ -5355,3 +5355,9 @@ h5, li a,  .footer-widget p {
   -webkit-background-clip: text  !important;
   -webkit-text-fill-color: transparent  !important;
 }
+
+/* Code ẩn FAQs */
+#mobile-menu > ul > li:nth-child(6) {
+  display: none;
+}
+/* Kết thúc code ẩn FAQs */

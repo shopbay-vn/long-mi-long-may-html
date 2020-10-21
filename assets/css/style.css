@@ -5357,7 +5357,7 @@ h5, li a,  .footer-widget p {
 }
 
 /* Code ẩn FAQs */
-#mobile-menu > ul > li:nth-child(6) {
+#mobile-menu > ul > li:nth-child(6), nav > ul > li:nth-child(6) {
   display: none;
 }
 /* Kết thúc code ẩn FAQs */
